@@ -1,0 +1,4 @@
+framework module HbpSdk {
+  header "HbpSdk-Swift.h"
+  requires objc
+}
