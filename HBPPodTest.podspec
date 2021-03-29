@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
   
   s.author           = { 'JeremyLin' => 'jeremylin@hyenatek.com' }
   s.platform         = :ios, "13.0"
-  s.source           = { :git => "https://github.com/HyenaJeremyLin/HBPPodTest.git", :tag => "#{s.version}" }
+  s.source           = { :git => "https://github.com/HyenaJeremyLin/HBPPodTest.git", :tag => s.version.to_s }
   s.swift_versions = ['5.0']
   s.vendored_frameworks = 'HbpSdk.framework'
   s.dependency 'iOSDFULibrary', '4.9.0'
